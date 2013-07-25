@@ -22,6 +22,7 @@ TARGET_CPU_SMP := true
 TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv7-a-neon
 ARCH_ARM_HAVE_TLS_REGISTER := true
+TARGET_CPU_VARIANT := krait
 
 #custom init rc
 TARGET_PROVIDES_INIT_RC := true
